@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png" type="image/png">
+    <title>PediZx | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-code-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#resume" class="nav__link">
+                            <i class='bx bx-file'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bxs-collection'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <span class="nav__link" style="cursor: pointer;">
+                            <i class='bx bx-moon' id="theme-button"></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+    </div>
+
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container">
+                <h1 class="home__title">Perdi Pratama</h1>
+                <h3 class="home__subtitle">I'm a <span class="typing"></span></h3>
+                <div class="home__social">
+                    <a href="perdixz17@gmail.com" class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                    <a href="https://github.com/perdizx" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/perdi-pratama-bbba88285?" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                </div>
+                <a href="#about" class="scroll-down">
+                    <i class='bx bx-mouse'></i>
+                    <span></span>
+                    <i class='bx bx-down-arrow-alt'></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__container">
+                <p class="about__description">
+                    I have a strong interest in graphic design and have honed my skills through various projects during my time at university. I am familiar with using Adobe Photoshop, Figma, and CorelDraw to create attractive and communicative designs. I am able to work both independently and within a team.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <div class="skills__container">
+                <div class="skills__box"><img src="html.png" alt="Html Icon" class="skills__img"><h3 class="skills__name">Html</h3></div>
+                <div class="skills__box"><img src="php.png" alt="Php Icon" class="skills__img"><h3 class="skills__name">Php</h3></div>
+                <div class="skills__box"><img src="css.png" alt="Css Icon" class="skills__img"><h3 class="skills__name">Css</h3></div>
+                <div class="skills__box"><img src="ci3.png" alt="Ci3 Icon" class="skills__img"><h3 class="skills__name">Ci3</h3></div>
+                <div class="skills__box"><img src="js.png" alt="JavaScript Icon" class="skills__img"><h3 class="skills__name">JavaScript</h3></div>
+                <div class="skills__box"><img src="figma.png" alt="Figma Icon" class="skills__img"><h3 class="skills__name">Figma</h3></div>
+                <div class="skills__box"><img src="corel.png" alt="Corel Draw Icon" class="skills__img"><h3 class="skills__name">Corel Draw</h3></div>
+                <div class="skills__box"><img src="canva.png" alt="Canva Icon" class="skills__img"><h3 class="skills__name">Canva</h3></div>
+                <div class="skills__box"><img src="capcut.png" alt="Capcut Icon" class="skills__img"><h3 class="skills__name">Capcut</h3></div>
+                <div class="skills__box"><img src="msoffice.png" alt="Office 365 Icon" class="skills__img"><h3 class="skills__name">Office 365</h3></div>
+            </div>
+        </section>
+        
+        <section class="section" id="resume">
+            <h2 class="section__title">Resume</h2>
+            <div class="resume__container">
+                <div class="resume__column">
+                    <h3 class="resume__column-title"><i class='bx bxs-graduation'></i> Education</h3>
+                    <div class="resume__item"><h4 class="resume__item-title">Rekayasa Perangkat Lunak</h4><p class="resume__item-subtitle">Smkn 1 Tirtajaya</p><div class="resume__item-date"><i class='bx bx-calendar'></i> 2020 - 2023</div></div>
+                    <div class="resume__item"><h4 class="resume__item-title">S1 Information Systems</h4><p class="resume__item-subtitle">Horizon University Indonesia</p><div class="resume__item-date"><i class='bx bx-calendar'></i> 2023 - Present</div></div>
+                </div>
+                <div class="resume__column">
+                    <h3 class="resume__column-title"><i class='bx bxs-briefcase-alt-2'></i> Experience</h3>
+                    <div class="resume__item"><h4 class="resume__item-title">Apprenticeship in Diskominfo Kab.Karawang</h4><p class="resume__item-subtitle">UI/UX Design</p><div class="resume__item-date"><i class='bx bx-calendar'></i> 13 October 2025 - 31 December 2025</div><ul class="resume__item-details"><li>Re-design Website InfoLoker Kab.Karawang</li><li>Add design feature App Tangkar</li><li>Design Website Landing Page Tangkar</li></ul></div>
+                    <div class="resume__item"><h4 class="resume__item-title">Apprenticeship in Cv Dexprint</h4><p class="resume__item-subtitle">Production</p><div class="resume__item-date"><i class='bx bx-calendar'></i> 3 May 2023 - 3 July 2023</div><ul class="resume__item-details"><li>Helper in production</li><li>Operate sticker cutting machine</li><li>Operate indoor banner machines</li><li>Production Video Creator</li></ul></div>
+                    <div class="resume__item"><h4 class="resume__item-title">Student Competition/LKS (2022)</h4><p class="resume__item-subtitle">Web Technology</p><div class="resume__item-date"><i class='bx bx-trophy'></i> 2nd Place at Karawang Regency Level</div><ul class="resume__item-details"><li>Web Development OnlineShop (CRUD)</li></ul></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="portfolio">
+            <h2 class="section__title">My Portfolio</h2>
+            <div class="portfolio__container">
+                <div class="portfolio__card"><img src="kitrd.jpg" alt="App Kit RealDrum" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">App Kit RealDrum</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://drive.google.com/file/d/1-N99WIkYcvQj1mQeIFaG3T6BpHYiSBQF/view?usp=drive_link" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a></div></div></div>
+                <div class="portfolio__card"><img src="rpl.jpg" alt="App Mapel RPL" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">App Mapel RPL</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="#" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a></div></div></div>
+                <div class="portfolio__card"><img src="re.png" alt="Website RE Esport" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">Website RE Esport</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://github.com/perdizx/royalemperor" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a><a href="https://perdizx.github.io/royalemperor/" class="portfolio__button"><i class='bx bx-link-external'></i> Demo</a></div></div></div>
+                <div class="portfolio__card"><img src="game.png" alt="Game FlyingDroid" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">Game FlyingDroid</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://github.com/perdizx/flyingdroid" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a><a href="https://perdizx.github.io/flyingdroid/" class="portfolio__button"><i class='bx bx-link-external'></i> Demo</a></div></div></div>
+                <div class="portfolio__card"><img src="webspc.png" alt="Website Sunrise Point" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">Website Sunrise Point</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://github.com/perdizx/projectuas-webspc" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a><a href="https://perdizx.github.io/projectuas-webspc/" class="portfolio__button"><i class='bx bx-link-external'></i> Demo</a></div></div></div>
+                <div class="portfolio__card"><img src="nexgen.png" alt="Web Nexgen" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">Website Nexgen</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://github.com/perdizx/nexgen" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a><a href="perdizx.github.io/nexgen" class="portfolio__button"><i class='bx bx-link-external'></i> Demo</a></div></div></div>
+                <div class="portfolio__card"><img src="nexgn.png" alt="UI/UX App Nexgen" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">UI/UX Design App Nexgen</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://www.figma.com/proto/niTZ4WVPayrpbcuVB9tyKd/Project-NexGen?node-id=0-1&fuid=1309831997113584487" class="portfolio__button"><i class='bx bx-link-external'></i> Protoype</a></div></div></div>
+                <div class="portfolio__card"><img src="sipekat.png" alt="Web Sipekat" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">Website Sipekat</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://github.com/perdizx/web-sipekat" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a></div></div></div>
+                <div class="portfolio__card"><img src="sdae.jpeg" alt="Web Inventory SDAE" class="portfolio__img"><div class="portfolio__content"><h3 class="portfolio__title">Website Inventory SDAE</h3><p class="portfolio__description"></p><div class="portfolio__buttons"><a href="https://github.com/perdizx/Website-Inventory-RM-Sambel-Dadak-A-Emil" class="portfolio__button"><i class='bx bxl-github'></i> Source Code</a></div></div></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
