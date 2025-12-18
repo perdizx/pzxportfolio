@@ -43,6 +43,22 @@ function scrollActive() {
         }
     });
 }
+
+window.addEventListener('load', () => {
+    const audio = document.getElementById('bg-music');
+    if (!audio) return;
+    audio.autoplay = true;
+    audio.loop = true;
+    audio.play().catch(() => {
+        const handler = () => {
+            audio.play();
+            document.removeEventListener('click', handler);
+            document.removeEventListener('touchstart', handler);
+        };
+        document.addEventListener('click', handler, { once: true });
+        document.addEventListener('touchstart', handler, { once: true });
+    });
+});
 window.addEventListener('scroll', scrollActive);
 
 /*===== DARK/LIGHT THEME =====*/
